@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
 body {
   background-color: antiquewhite;
@@ -7,8 +7,37 @@ body {
 * {
   margin: 0;
   padding: 0;
+  /* background-color: rgb(19, 20, 17); */
+}
+nav {
+  font-family: "Ubuntu", sans-serif;
+  /* background-color: #fff; */
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  color: white;
+  list-style-type: none;
+  background-color: black;
+  height: 65px;
+}
+nav ul li{
+  background-color: crimson;
+  padding: 0 12px;
 }
 
-nav{
-  
+.brand {
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
 }
+
+.brand img {
+  width: 54px;
+  background-color: chocolate;
+  padding: 0 8px;
+}
+
